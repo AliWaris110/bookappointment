@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "First Booking created Failed"
+    },
+    {
+        "icon": "bx bx-package",
+        "content": "First Booking created successfully"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Add booking "
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "First Booking created failed"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Add booking"
+    }
+]

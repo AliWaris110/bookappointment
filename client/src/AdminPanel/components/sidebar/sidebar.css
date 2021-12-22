@@ -1,0 +1,112 @@
+.sidebar{
+    min-width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+}
+.sidebar__logo{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar__item{
+padding: 0 20px;
+}
+.sidebar__item-inner{
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    transition: color 0.3s ease 0s;
+}
+.sidebar__item-inner > i {
+margin-right: 10px;
+font-size: 1.5rem;
+}
+.sidebar__item-inner > span {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.sidebar__item-inner:hover{
+    color:var(--main-color);
+}
+.sidebar__item-inner.active{
+    border-radius: var(--border-radius);
+    background-image: linear-gradient(to right,
+    var(--main-color),
+    var(--second-color)
+    );
+    
+    color: var(--txt-white);
+}
+
+.add-user{
+padding: 10px;
+display: inline-flex;
+
+justify-content: center;
+cursor: pointer;
+align-items: center; 
+background-color: var(--main-bg);
+box-shadow: var(--box-shadow);
+border-radius: var(--border-radius);
+position: relative;
+overflow: hidden;
+z-index: 1;
+transition: color .5s ease 0s;
+margin-bottom: 10px;
+
+}
+
+.add-user__icon{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+    
+    }
+
+.add-user__info{
+    flex-grow: 1;
+    text-align: center;
+    z-index: 1;
+    text-transform: capitalize;
+    }
+
+.add-user::before{
+    content: '';
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(to top right,
+    var(--main-color),
+    var(--second-color));
+    position: absolute;
+    left: -50%;
+    top:0;
+    transform: scale(0);
+    transition: transform 0.9s ease 0s;
+
+
+}
+.add-user:hover::before{
+    transform: scale(3);
+    
+}
+
+
+.add-user:hover{
+    color: var(--txt-white)
+}
+.add-user-link:hover{
+color:var(--txt-white);
+text-decoration: none;
+}

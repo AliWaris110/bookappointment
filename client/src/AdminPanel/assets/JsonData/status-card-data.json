@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bxs-user",
+        "count": "0",
+        "title": "Active Users"
+    },
+    {
+        "icon": "bx bxs-user",
+        "count": "0",
+        "title": "Inactive Users"
+    },
+    {
+        "icon": "bx bxs-book",
+        "count": "0",
+        "title": "Pending Bookings"
+    },
+    {
+        "icon": "bx bxs-book",
+        "count": "0",
+        "title": "Completed Bookings"
+    }
+]

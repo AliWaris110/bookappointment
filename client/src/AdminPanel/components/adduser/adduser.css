@@ -1,0 +1,56 @@
+.add-user-panel > form {
+  width: 60% !important;
+}
+
+.add-user-link {
+  background: none;
+  
+}
+
+.add-user-link:hover, .add-user-link:focus {
+  outline: none;
+  }
+.role__label {
+  color: var(--txt-color);
+}
+.add-user-panel {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.add-user-panel > h1 {
+  /* justify-content: center; */
+  text-align: center;
+  margin-right: 40%;
+  transition: font-size 2s;
+}
+
+@media only screen and (max-width: 1010px) {
+  .add-user-panel > h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .add-user-panel {
+    max-width: 100%;
+  }
+}
+.password-border {
+  border: 1px solid red;
+}
+.password-border:focus-within{
+  color:red
+}
+
+.email-border {
+  border: 1px solid red;
+  color:red;
+}
+.email-border:focus-within{
+  color:red
+}

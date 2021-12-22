@@ -1,0 +1,16 @@
+.badge{
+    padding: 6px 11px !important;
+    color: var(--txt-white) !important;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow) !important;
+}
+
+.badge-warning{
+    background-color: var(--main-color-orange) !important;
+}
+.badge-primary{
+    background-color: var(--main-color-blue) !important;
+}
+.badge-success{
+    background-color: var(--main-color-green) !important;
+}

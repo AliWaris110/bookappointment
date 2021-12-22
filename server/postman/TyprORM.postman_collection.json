@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "625d4283-c7df-4f89-a633-1a6b9087eb69",
+		"name": "TyprORM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDMzY2IzZGIzOGUxMjUxODRlMDgzMyIsImVtYWlsIjoiZmlkYS5odXNzYWluQGdtYWlsLmNvbSIsImV4cCI6MTYzMjQ2MzkwNC43MDEsImlhdCI6MTYzMTg1OTEwNH0.oZIL6CPGPpTntFiTXDBv1hQiR-U_D_wPMEBwx9dpnNM"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Faisal\",\r\n    \"lastName\":\"Ali\",\r\n    \"email\":\"faisal.Ali@gmail.com\",\r\n    \"password\":\"faisalali\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/auth/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"fida.hussain@gmail.com\",\r\n    \"password\":\"mockPassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsers",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDMzY2IzZGIzOGUxMjUxODRlMDgzMyIsImVtYWlsIjoiZmlkYS5odXNzYWluQGdtYWlsLmNvbSIsImV4cCI6MTYzMjQ2MzkwNC43MDEsImlhdCI6MTYzMTg1OTEwNH0.oZIL6CPGPpTntFiTXDBv1hQiR-U_D_wPMEBwx9dpnNM"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/user"
+			},
+			"response": []
+		},
+		{
+			"name": "CurrentAdminInfo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDMzY2IzZGIzOGUxMjUxODRlMDgzMyIsImVtYWlsIjoiZmlkYS5odXNzYWluQGdtYWlsLmNvbSIsImV4cCI6MTYzMjQ4OTkxOS45NjgsImlhdCI6MTYzMTg4NTExOX0.GpCvK9-Eh2hkbG1Tz-doRT3OUc82cw7LHuUqF_ZPmxY"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/user/current"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUserWithAdmin",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDMzY2IzZGIzOGUxMjUxODRlMDgzMyIsImVtYWlsIjoiZmlkYS5odXNzYWluQGdtYWlsLmNvbSIsImV4cCI6MTYzMjQ4OTkxOS45NjgsImlhdCI6MTYzMTg4NTExOX0.GpCvK9-Eh2hkbG1Tz-doRT3OUc82cw7LHuUqF_ZPmxY"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/user/61449890da2a3d4008380b0a"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateWithAdminAccess",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDQzMWRjYWU2Y2I4NTEwNDIzNjNkZiIsImVtYWlsIjoiQWhtZWQuQWxpQGdtYWlsLmNvbSIsImV4cCI6MTYzMjcyMTM2NS40NDksImlhdCI6MTYzMjExNjU2NX0.NSOgBeb7sb4ww2eK38sSSqH5UVqlSpDrH-2uIKKS2KU"
+					}
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"firstName\":\"waqar\",\r\n    \"lastName\":\"Ahmed\",\r\n    \"email\":\"waqar.Ahmed@gmail.com\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/user/6144981dda2a3d4008380b09"
+			},
+			"response": []
+		}
+	]
+}

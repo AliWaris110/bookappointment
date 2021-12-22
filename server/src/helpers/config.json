@@ -1,0 +1,13 @@
+﻿{
+    "connectionString": "mongodb+srv://jwt:typeorm@jwtauth.kjevy.mongodb.net/typeorm?retryWrites=true&w=majority",
+    "secret": "nQK6Ps5sWUuMMs9BN5X22Q",
+    "emailFrom": "info@node-mongo-signup-verification-api.com",
+    "smtpOptions": {
+        "host": "smtp.ethereal.email",
+        "port": 587,
+        "auth": {
+            "user": "lorena.spinka69@ethereal.email",
+            "pass": "GJxqGjMMhHBPYWPJch"
+        }
+    }
+}

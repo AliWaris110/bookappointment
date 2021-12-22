@@ -1,0 +1,23 @@
+.profile-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 20ch;
+    column-gap: 10ch;
+    padding-top:10px;
+    
+}
+strong{
+   
+    /* float: inline-sta; */
+   margin-left:20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+p{
+   font-weight: 400;
+   
+}
+h3{
+    text-align: center;
+}

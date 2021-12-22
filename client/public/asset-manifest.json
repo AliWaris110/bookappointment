@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f979634e.chunk.css",
+    "main.js": "/static/js/main.cd03d3dc.chunk.js",
+    "main.js.map": "/static/js/main.cd03d3dc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.71c5bbf3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.71c5bbf3.js.map",
+    "static/js/2.76885bab.chunk.js": "/static/js/2.76885bab.chunk.js",
+    "static/js/2.76885bab.chunk.js.map": "/static/js/2.76885bab.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f979634e.chunk.css.map": "/static/css/main.f979634e.chunk.css.map",
+    "static/js/2.76885bab.chunk.js.LICENSE.txt": "/static/js/2.76885bab.chunk.js.LICENSE.txt",
+    "static/media/car_wash.bcf560a1.png": "/static/media/car_wash.bcf560a1.png",
+    "static/media/demo_booking.4e20cbb1.jpg": "/static/media/demo_booking.4e20cbb1.jpg",
+    "static/media/herosection.css": "/static/media/home.a412ee6b.jpg",
+    "static/media/logo.cc585d47.png": "/static/media/logo.cc585d47.png",
+    "static/media/shadi_hall.842ef7db.jpg": "/static/media/shadi_hall.842ef7db.jpg",
+    "static/media/user_profile.86d238e1.png": "/static/media/user_profile.86d238e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71c5bbf3.js",
+    "static/js/2.76885bab.chunk.js",
+    "static/css/main.f979634e.chunk.css",
+    "static/js/main.cd03d3dc.chunk.js"
+  ]
+}
